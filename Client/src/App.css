@@ -1,0 +1,392 @@
+@font-face {
+  font-family: jedi;
+  src: url(starjedi.ttf);
+}
+
+@font-face {
+  font-family: hollow;
+  src: url(starjhol.ttf);
+}
+
+@font-face {
+  font-family: first;
+  src: url(first.TTF);
+}
+
+.nav {
+  /* position: absolute; */
+  background-color: black;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 10;
+  position: relative;
+}
+
+body {
+  background-image: url(https://www.chromethemer.com/wallpapers/chromebook-wallpapers/download/star-wars-rogue-one-3840x2160.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 1072px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  z-index: 1;
+
+}
+
+.star-wars {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  perspective: 400px;
+  color: yellow;
+  font-family: jedi;
+  font-weight: 600px;
+  letter-spacing: 6px;
+  line-height: 150%;
+  text-align: center;
+  font-size: 400%;
+  z-index: -1;
+}
+
+.crawl {
+  position: relative;
+  top: 9999px;
+  transform-origin: 50% 100%;
+  animation: crawl 60s linear infinite;
+  z-index: -1;
+}
+
+@keyframes crawl {
+  0% {
+    top: 0;
+    transform: rotateX(20deg) translateZ(0);
+  }
+  100% {
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2500px);
+  }
+}
+
+h1 {
+  font-family: hollow;
+  color: yellow;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.intro{
+  position: relative;
+  z-index: -1;
+}
+
+.kraken {
+  background-color: #211c33;
+  margin: auto;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: double yellow;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+.contact {
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/01/28/239783/bb85e1ee2ec5bb375f14a055d8fef147-700.jpg);
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 892px;
+  overflow: hidden;
+}
+
+.contactTitle {
+  color: yellow;
+}
+
+.container {
+  font-family: jedi;
+  letter-spacing: 4px;
+  font-size: 20px;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.mapLang {
+  color: black;
+  text-shadow: rgba(255, 255, 0, 0.712) 2px 2px 20px;
+  text-align: center;
+
+  /* border: double; */
+}
+
+.langPage {
+  background-color: rgba(255, 255, 255, 0.705);
+  box-shadow: rgba(0, 0, 0, 0.459) 7px 7px 8px 2px;
+  border: double yellow;
+  padding: 5px;
+
+}
+
+.lang {
+  background: url(https://us.123rf.com/450wm/neyro2008/neyro20081611/neyro2008161100072/67379974-raum-mit-sternen-vektor-hintergrund-galaxy-und-planeten-im-weltraum-kosmos-muster-universum-raum-une.jpg?ver=6);
+  background-position: center;
+  background-repeat: repeat;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+}
+
+.title {
+  position: relative;
+  z-index: -1;
+}
+
+.linkHome {
+ color: yellow;
+ font-family: jedi;
+ font-size: 20px;
+ background-color: black;
+ z-index: 5;
+ letter-spacing: 4px;
+}
+
+.details {
+  background-image: url("https://images.homedepot-static.com/productImages/e244c4d3-ef7f-45c3-864f-1704944ddb5c/svn/roommates-wallpaper-rmk11063wp-64_1000.jpg");
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.langName {
+  padding-top: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.submit {
+  border: yellow double;
+  height: 60px;
+  width: 150px;
+  color: yellow;
+  background-color: black;
+  font-family: jedi;
+  font-size: 20px;
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+  box-shadow: 0 9px yellow;
+  border-radius: 14px;
+}
+
+.htwo {
+  text-shadow: 0px 0px 20px yellow, 0px 0px 20px yellow;
+  margin-bottom: -30px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.textArea {
+  text-align: center;
+  margin-top: 15px;
+  border: none;
+  box-shadow: 2px 2px 20px yellow, -2px -2px 20px yellow;
+  background-color: hsla(60, 100%, 50%, 0.459);
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.button {
+  border: double yellow;
+  padding: 20px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.submit:active {
+  box-shadow: 0 5px yellow;
+  transform: translateY(5px);
+}
+
+.submission {
+  font-family: jedi;
+  letter-spacing: 3px;
+  color: yellow;
+  border: yellow double;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  margin: auto;
+  height: 170px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  width: 30%;
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+.anotherSub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 25%;
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 20px;
+  height: 50px;
+  width: 300px;
+  border: none;
+  box-shadow: 2px 2px 20px yellow, -2px -2px 20px yellow;
+  background-color: hsla(60, 100%, 50%, 0.459);
+  text-align: center;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.795);
+  text-align: center;
+  font-weight: 500;
+}
+
+@media (max-width: 1540px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .form {
+    display: grid;
+    width: 40%;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }  
+
+  .submission {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .form {
+    display: grid;
+    width: 50%;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }  
+
+  .submission {
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 745px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .star-wars {
+    font-size: 250%;
+  }
+
+  .form {
+    display: grid;
+    width: 100%;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }  
+
+  .submission {
+    font-size: 13px;
+  }
+
+  .anotherSub {
+    width: 30%;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .textArea {
+    width: 300px;
+  }
+
+  .langName {
+    font-size: 45px;
+  }
+
+  .submission {
+    font-size: 11px;
+  }
+
+  .anotherSub {
+    width: 33%;
+  }
+
+}

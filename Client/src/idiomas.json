@@ -1,0 +1,61 @@
+[{
+  "name": "gungan",
+  "imgUrl": "https://vignette.wikia.nocookie.net/starwars/images/0/02/Jar_Jar_SWSB.png/revision/latest?cb=20160910034613",
+  "_id": "222" 
+},
+{
+  "name": "chef",
+  "imgUrl": "https://images.vexels.com/media/users/3/127400/isolated/preview/43ee1cafca2f947f0be0d94aeff0fc26-chef-cartoon-profession-by-vexels.png",
+  "_id": "333"
+},
+{
+  "name": "dothraki",
+  "imgUrl": "https://vignette.wikia.nocookie.net/vsbattles/images/f/fa/Khal.png/revision/latest?cb=20160306092048",
+  "_id": "444"
+},
+{
+  "name": "mandalorian",
+  "imgUrl": "https://vignette.wikia.nocookie.net/starwars/images/d/dc/PreVizlaDetail-SWE.png/revision/latest?cb=20160913024008",
+  "_id": "777"
+},
+{
+  "name": "minion",
+  "imgUrl": "http://www.stickpng.com/assets/thumbs/5866144b7d90850fc3ce2a64.png",
+  "_id": "888"
+},
+{
+  "name": "sith",
+  "imgUrl": "https://cdn.playbuzz.com/cdn/7f6471be-0a4f-42ec-8b51-efeb3891585c/89b52d38-4fa9-45b5-8ede-1fe19dc8ec4b.jpg",
+  "_id": "999"
+},
+{
+  "name": "old-english",
+  "imgUrl": "https://onestopfiction.com/-res/fls/mw600/why-sherlock-holmes-is-the-iconic-detective.png",
+  "_id": "000" 
+},
+{
+  "name": "pig-latin",
+  "imgUrl": "http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bc9b.png",
+  "_id": "112"
+},
+{
+  "name": "pirate",
+  "imgUrl": "http://www.pngall.com/wp-content/uploads/2016/06/Pirate-Free-PNG-Image.png",
+  "_id": "113"
+},
+{
+  "name": "shakespeare",
+  "imgUrl": "https://ya-webdesign.com/images/shakespeare-transparent-3.png",
+  "_id": "114"
+},
+{
+  "name": "vulcan",
+  "imgUrl": "http://assets.stickpng.com/thumbs/5854ffa64f6ae202fedf266f.png",
+  "_id": "115" 
+},
+{
+  "name": "yoda",
+  "imgUrl": "http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bdbe.png",
+  "_id": "116"
+}
+]
