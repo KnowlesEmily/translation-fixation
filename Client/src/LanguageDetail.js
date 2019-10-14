@@ -1,6 +1,5 @@
 import React from 'react';
 import list from "./idiomas.json";
-// const Axios = require('axios')
 import axios from 'axios'
 
 
@@ -13,7 +12,7 @@ class LanguageDetail extends React.Component {
       translatedText: ""
     }
   }
-  
+
   handleChange = e => {
     this.setState({
       text: e.target.value
@@ -39,18 +38,18 @@ class LanguageDetail extends React.Component {
     return (
       <div className="details">
         <h1 className="langName">{name}</h1>
-        <textarea 
+        <textarea
           rows="10"
           cols="80"
-          className="textArea" 
-          type="text" 
-          value={this.state.text} 
-          name='text' 
-          onChange={this.handleChange} 
+          className="textArea"
+          type="text"
+          value={this.state.text}
+          name='text'
+          onChange={this.handleChange}
         />
         <br/>
-        <button 
-          className="submit" 
+        <button
+          className="submit"
           onClick={() => this.getTranslation(name)}
         >
           Translate
@@ -59,7 +58,6 @@ class LanguageDetail extends React.Component {
       </div>
     );
   }
-    
 };
 
 export default LanguageDetail;

@@ -1,5 +1,4 @@
 import React from 'react';
-// import Footer from "./Footer"
 import {Link} from "react-router-dom";
 
 const Home = (props) => {
@@ -15,7 +14,6 @@ const Home = (props) => {
         <div className="kraken">
           <Link className="linkHome" to="./languages">Let's Get Kraken!</Link>
         </div>
-        {/* <Footer/> */}
       </div>
     </section>
   );
