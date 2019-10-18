@@ -4,7 +4,7 @@ Emily Knowles
 
 ## What is Translation Fixation?
 
-Are you a nerd? Are you boring and looking for a little razzle-dazzle to your personality? If you were a spice would you be flour? Have you ever wanted to impress your fellow friends in the Tolkien fandom with your knowledge of the elvish languages but had no idea how? Is Yoda your spirit Jedi but you can’t wrap your head around how he makes his sentences all backwardsy and epic? Well do we have the app for you! Translation Fixation is the new hip app for spitting lines in your favorite fake or weird languages! Just select what language you want to speak to be taken to that language’s translation page, type in your sentence into the provided box (english only to begin with) and your new fangled sentence will pop up below! From Valyrian to Vulcan, Sith to Sindarin you might as well audition to be on the big screen after you’re done! We even have languages to fit all fetishes! Love pigs? We’ve got Pig-Latin! Love blind people? We’ve got Braille! Love Gru? We’ve got Minion! So come on over all movie-buffs, out-casts, or people just looking for a good time - we’ve got what you need! 
+Are you a nerd? Are you boring and looking for a little razzle-dazzle to your personality? If you were a spice would you be flour? Have you ever wanted to impress your fellow friends in the Tolkien fandom with your knowledge of the elvish languages but had no idea how? Is Yoda your spirit Jedi but you can’t wrap your head around how he makes his sentences all backwardsy and epic? Well do we have the app for you! Translation Fixation is the new hip app for spitting lines in your favorite fake or weird languages! Just select what language you want to speak to be taken to that language’s translation page, type in your sentence into the provided box (english only to begin with) and your new fangled sentence will pop up below! From Valyrian to Vulcan, Sith to Sindarin you might as well audition to be on the big screen after you’re done! We even have languages to fit all fetishes! Love pigs? We’ve got Pig-Latin! Love blind people? We’ve got Braille! Love Gru? We’ve got Minion! So come on over all movie-buffs, out-casts, or people just looking for a good time - we’ve got what you need!
 
 ## Objective
 
@@ -13,22 +13,27 @@ I wanted to make a fun website about something I'm passionate about. Languages h
 ### Web Views
 
 ##### Home Page
+![Home page](/screenshots/homePage.png)
 
 ##### Language Detail Page
+![Language detail page](/screenshots/langDetailPage.png)
 
 ##### Language Translation Page
+![Language page](/screenshots/langPage.png)
 
 ##### Contact Page
+![Contact page](/screenshots/contactPage.png)
 
 ##### Submitted Page
+![Submitted page](/screenshots/submittedPage.png)
 
 Home Mobile Page | Language Detail Mobile Page | Language Translation Mobile Page
---- | --- | ---
-<img alt="main-mobile-view" src="screenshots/main-mobile.png" width="300" height="auto"> | <img alt="upcoming-mobile-view" src="screenshots/upcoming-mobile.png" width="300" height="auto"> | <img alt="add-gig-mobile-view" src="screenshots/add-gig-mobile.png" width="300" height="auto">
+--- | --- | --- |
+<img alt="home-mobile-view" src="screenshots/homeMobile.png" width="300" height="auto"> | <img alt="upcoming-mobile-view" src="screenshots/langDetailMobile.png" width="300" height="auto"> | <img alt="add-gig-mobile-view" src="screenshots/langMobile.png" width="300" height="auto">
 
-Contact Mobile Page | submitted Mobile Page
+Contact Mobile Page | Submitted Mobile Page
 --- | ---
-<img alt="main-mobile-view" src="screenshots/main-mobile.png" width="300" height="auto"> | <img alt="upcoming-mobile-view" src="screenshots/upcoming-mobile.png" width="300" height="auto"> | <img alt="add-gig-mobile-view" src="screenshots/add-gig-mobile.png" width="300" height="auto">
+<img alt="main-mobile-view" src="screenshots/contactMobile.png" width="300" height="auto"> | <img alt="upcoming-mobile-view" src="screenshots/submittedMobile.png" width="300" height="auto">
 
 ## Links
 
